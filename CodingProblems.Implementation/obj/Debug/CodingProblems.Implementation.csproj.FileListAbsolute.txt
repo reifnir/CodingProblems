@@ -1,0 +1,5 @@
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Implementation\bin\Debug\CodingProblems.Implementation.dll
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Implementation\bin\Debug\CodingProblems.Implementation.pdb
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Implementation\obj\Debug\CodingProblems.Implementation.csprojResolveAssemblyReference.cache
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Implementation\obj\Debug\CodingProblems.Implementation.dll
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Implementation\obj\Debug\CodingProblems.Implementation.pdb

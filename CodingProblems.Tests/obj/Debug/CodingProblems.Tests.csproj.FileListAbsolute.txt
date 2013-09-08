@@ -1,0 +1,9 @@
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\obj\Debug\CodingProblems.Tests.csprojResolveAssemblyReference.cache
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\bin\Debug\CodingProblems.Tests.dll
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\bin\Debug\CodingProblems.Tests.pdb
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\bin\Debug\CodingProblems.Implementation.dll
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\bin\Debug\nunit.framework.dll
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\bin\Debug\CodingProblems.Implementation.pdb
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\bin\Debug\nunit.framework.xml
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\obj\Debug\CodingProblems.Tests.dll
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\obj\Debug\CodingProblems.Tests.pdb
