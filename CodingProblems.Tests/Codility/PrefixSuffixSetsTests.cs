@@ -1,4 +1,4 @@
-﻿using CodingProblems.Implementation.Codility;
+﻿using CodingProblems.Implementation.Codility.PrefixSuffixSets;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -19,7 +19,7 @@ namespace CodingProblems.Tests.Codility
             var set = BaseSet;
             var expected = 14;
 
-            var actual = new PrefixSuffixSets().GetPrefixSuffixSetCount(set);
+            var actual = new Solution().GetPrefixSuffixSetCount(set);
 
             Assert.AreEqual(expected, actual);
         }
