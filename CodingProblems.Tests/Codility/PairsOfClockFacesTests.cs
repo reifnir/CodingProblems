@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using CodingProblems.Implementation.Codility.PairsOfClockFaces;
+using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 
@@ -21,7 +22,7 @@ namespace CodingProblems.Tests.Codility
             };
             var expected = 7;
 
-            var actual = new PairsOfClockFaces().solution(numbers, p);
+            var actual = new Solution().solution(numbers, p);
 
             Assert.AreEqual(expected, actual);
         }
@@ -40,7 +41,7 @@ namespace CodingProblems.Tests.Codility
             };
             var expected = 4;
 
-            var actual = new PairsOfClockFaces().solution(numbers, p);
+            var actual = new Solution().solution(numbers, p);
 
             Assert.AreEqual(expected, actual);
         }
