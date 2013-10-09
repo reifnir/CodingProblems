@@ -74,8 +74,6 @@
 
             var prefixesNumbersUsed = new HashSet<int>();
             var suffixNumbersUsed = new HashSet<int>();
-            var lastPrefixUsed = int.MinValue;
-            var lastSuffixUsed = int.MinValue;
 
             foreach (var rangePair in GetPrefixSuffixIndexRanges(set))
             {

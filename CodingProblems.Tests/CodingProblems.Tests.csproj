@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Codility\BordersOfAStringTests.cs" />
+    <Compile Include="Codility\MaximumFlagsOnPeaksTests.cs" />
     <Compile Include="Codility\PairsOfClockFacesTests.cs" />
     <Compile Include="Codility\PrefixSuffixSetsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

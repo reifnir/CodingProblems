@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Codility\BordersOfAString.cs" />
+    <Compile Include="Codility\MaximumFlagsOnPeaks.cs" />
     <Compile Include="Codility\PairsOfClockFaces.cs" />
     <Compile Include="Codility\PrefixSuffixSets.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
