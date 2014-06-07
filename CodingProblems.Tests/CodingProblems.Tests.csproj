@@ -35,6 +35,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,7 +47,36 @@
     <Compile Include="Codility\MaximumFlagsOnPeaksTests.cs" />
     <Compile Include="Codility\PairsOfClockFacesTests.cs" />
     <Compile Include="Codility\PrefixSuffixSetsTests.cs" />
+    <Compile Include="Euler\P001Tests.cs" />
+    <Compile Include="Euler\P002Tests.cs" />
+    <Compile Include="Euler\P003Tests.cs" />
+    <Compile Include="Euler\P004Tests.cs" />
+    <Compile Include="Euler\P005Tests.cs" />
+    <Compile Include="Euler\P006Tests.cs" />
+    <Compile Include="Euler\P007Tests.cs" />
+    <Compile Include="Euler\P008Tests.cs" />
+    <Compile Include="Euler\P009Tests.cs" />
+    <Compile Include="Euler\P010Tests.cs" />
+    <Compile Include="Euler\P011Tests.cs" />
+    <Compile Include="Euler\P012Tests.cs" />
+    <Compile Include="Euler\P013Tests.cs" />
+    <Compile Include="Euler\P014Tests.cs" />
+    <Compile Include="Euler\P015Tests.cs" />
+    <Compile Include="Euler\P016Tests.cs" />
+    <Compile Include="Euler\P017Tests.cs" />
+    <Compile Include="Euler\P018Tests.cs" />
+    <Compile Include="Euler\P019Tests.cs" />
+    <Compile Include="Euler\P020Tests.cs" />
+    <Compile Include="Euler\P021Tests.cs" />
+    <Compile Include="Euler\P022Tests.cs" />
+    <Compile Include="Euler\P023Tests.cs" />
+    <Compile Include="Euler\P067Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -56,6 +86,15 @@
       <Project>{bb91d11d-dfe2-41f0-b329-db652e481043}</Project>
       <Name>CodingProblems.Implementation</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\names.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

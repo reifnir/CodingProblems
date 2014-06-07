@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,6 +44,30 @@
     <Compile Include="Codility\MaximumFlagsOnPeaks.cs" />
     <Compile Include="Codility\PairsOfClockFaces.cs" />
     <Compile Include="Codility\PrefixSuffixSets.cs" />
+    <Compile Include="Euler\Common.cs" />
+    <Compile Include="Euler\P001.cs" />
+    <Compile Include="Euler\P002.cs" />
+    <Compile Include="Euler\P003.cs" />
+    <Compile Include="Euler\P004.cs" />
+    <Compile Include="Euler\P005.cs" />
+    <Compile Include="Euler\P006.cs" />
+    <Compile Include="Euler\P007.cs" />
+    <Compile Include="Euler\P008.cs" />
+    <Compile Include="Euler\P009.cs" />
+    <Compile Include="Euler\P010.cs" />
+    <Compile Include="Euler\P011.cs" />
+    <Compile Include="Euler\P012.cs" />
+    <Compile Include="Euler\P013.cs" />
+    <Compile Include="Euler\P014.cs" />
+    <Compile Include="Euler\P015.cs" />
+    <Compile Include="Euler\P016.cs" />
+    <Compile Include="Euler\P017.cs" />
+    <Compile Include="Euler\P018.cs" />
+    <Compile Include="Euler\P019.cs" />
+    <Compile Include="Euler\P020.cs" />
+    <Compile Include="Euler\P021.cs" />
+    <Compile Include="Euler\P022.cs" />
+    <Compile Include="Euler\P023.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

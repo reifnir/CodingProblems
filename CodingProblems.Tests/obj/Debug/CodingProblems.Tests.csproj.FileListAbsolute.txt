@@ -7,3 +7,14 @@
 \\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\bin\Debug\nunit.framework.xml
 \\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\obj\Debug\CodingProblems.Tests.dll
 \\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\obj\Debug\CodingProblems.Tests.pdb
+C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Tests\bin\Debug\CodingProblems.Tests.dll
+C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Tests\bin\Debug\CodingProblems.Tests.pdb
+C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Tests\bin\Debug\CodingProblems.Implementation.dll
+C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Tests\bin\Debug\CodingProblems.Implementation.pdb
+C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Tests\obj\Debug\CodingProblems.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Tests\obj\Debug\CodingProblems.Tests.Properties.Resources.resources
+C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Tests\obj\Debug\CodingProblems.Tests.csproj.GenerateResource.Cache
+C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Tests\obj\Debug\CodingProblems.Tests.dll
+C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Tests\obj\Debug\CodingProblems.Tests.pdb

@@ -3,3 +3,8 @@
 \\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Implementation\obj\Debug\CodingProblems.Implementation.csprojResolveAssemblyReference.cache
 \\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Implementation\obj\Debug\CodingProblems.Implementation.dll
 \\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Implementation\obj\Debug\CodingProblems.Implementation.pdb
+C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Implementation\bin\Debug\CodingProblems.Implementation.dll
+C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Implementation\bin\Debug\CodingProblems.Implementation.pdb
+C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Implementation\obj\Debug\CodingProblems.Implementation.csprojResolveAssemblyReference.cache
+C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Implementation\obj\Debug\CodingProblems.Implementation.dll
+C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Implementation\obj\Debug\CodingProblems.Implementation.pdb
