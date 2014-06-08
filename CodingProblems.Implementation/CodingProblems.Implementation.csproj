@@ -40,10 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Codility\BordersOfAString.cs" />
-    <Compile Include="Codility\MaximumFlagsOnPeaks.cs" />
-    <Compile Include="Codility\PairsOfClockFaces.cs" />
-    <Compile Include="Codility\PrefixSuffixSets.cs" />
+    <Compile Include="Codility\y2013\BordersOfAString.cs" />
+    <Compile Include="Codility\y2013\MaximumFlagsOnPeaks.cs" />
+    <Compile Include="Codility\y2013\PairsOfClockFaces.cs" />
+    <Compile Include="Codility\y2013\PrefixSuffixSets.cs" />
+    <Compile Include="Codility\y2014\LongestPathWithAscendingBeauty.cs" />
+    <Compile Include="Codility\y2014\MaxSliceSum.cs" />
     <Compile Include="Euler\Common.cs" />
     <Compile Include="Euler\P001.cs" />
     <Compile Include="Euler\P002.cs" />

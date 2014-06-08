@@ -43,10 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Codility\BordersOfAStringTests.cs" />
-    <Compile Include="Codility\MaximumFlagsOnPeaksTests.cs" />
-    <Compile Include="Codility\PairsOfClockFacesTests.cs" />
-    <Compile Include="Codility\PrefixSuffixSetsTests.cs" />
+    <Compile Include="Codility\y2013\BordersOfAStringTests.cs" />
+    <Compile Include="Codility\y2013\MaximumFlagsOnPeaksTests.cs" />
+    <Compile Include="Codility\y2013\PairsOfClockFacesTests.cs" />
+    <Compile Include="Codility\y2013\PrefixSuffixSetsTests.cs" />
+    <Compile Include="Codility\y2014\LongestPathWithAscendingBeautyTests.cs" />
+    <Compile Include="Codility\y2014\MaxSliceSumTests.cs" />
     <Compile Include="Euler\P001Tests.cs" />
     <Compile Include="Euler\P002Tests.cs" />
     <Compile Include="Euler\P003Tests.cs" />
@@ -96,6 +98,7 @@
   <ItemGroup>
     <None Include="Resources\names.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
