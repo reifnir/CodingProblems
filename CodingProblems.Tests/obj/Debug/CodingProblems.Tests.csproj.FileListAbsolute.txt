@@ -18,3 +18,5 @@ C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Tests\obj\Debug\Codi
 C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Tests\obj\Debug\CodingProblems.Tests.csproj.GenerateResource.Cache
 C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Tests\obj\Debug\CodingProblems.Tests.dll
 C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Tests\obj\Debug\CodingProblems.Tests.pdb
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\obj\Debug\CodingProblems.Tests.Properties.Resources.resources
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\obj\Debug\CodingProblems.Tests.csproj.GenerateResource.Cache

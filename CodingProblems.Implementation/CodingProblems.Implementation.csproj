@@ -44,6 +44,7 @@
     <Compile Include="Codility\y2013\MaximumFlagsOnPeaks.cs" />
     <Compile Include="Codility\y2013\PairsOfClockFaces.cs" />
     <Compile Include="Codility\y2013\PrefixSuffixSets.cs" />
+    <Compile Include="Codility\y2014\GetMaxSliceWithSwap.cs" />
     <Compile Include="Codility\y2014\LongestPathWithAscendingBeauty.cs" />
     <Compile Include="Codility\y2014\MaxSliceSum.cs" />
     <Compile Include="Euler\Common.cs" />
