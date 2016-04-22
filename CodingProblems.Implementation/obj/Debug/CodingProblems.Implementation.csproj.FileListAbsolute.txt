@@ -8,3 +8,5 @@ C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Implementation\bin\D
 C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Implementation\obj\Debug\CodingProblems.Implementation.csprojResolveAssemblyReference.cache
 C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Implementation\obj\Debug\CodingProblems.Implementation.dll
 C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Implementation\obj\Debug\CodingProblems.Implementation.pdb
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Implementation\obj\Debug\CodingProblems.Implementation.Properties.Resources.resources
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Implementation\obj\Debug\CodingProblems.Implementation.csproj.GenerateResource.Cache

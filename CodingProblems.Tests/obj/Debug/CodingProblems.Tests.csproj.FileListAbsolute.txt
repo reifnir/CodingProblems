@@ -20,3 +20,12 @@ C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Tests\obj\Debug\Codi
 C:\Users\Jim\Documents\GitHub\CodingProblems\CodingProblems.Tests\obj\Debug\CodingProblems.Tests.pdb
 \\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\obj\Debug\CodingProblems.Tests.Properties.Resources.resources
 \\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\obj\Debug\CodingProblems.Tests.csproj.GenerateResource.Cache
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\bin\Debug\CodingProblems.Tests.dll.config
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\bin\Debug\EntityFramework.dll
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\bin\Debug\EntityFramework.SqlServer.dll
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\bin\Debug\System.Data.SQLite.dll
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\bin\Debug\System.Data.SQLite.EF6.dll
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\bin\Debug\System.Data.SQLite.Linq.dll
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\bin\Debug\EntityFramework.xml
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\bin\Debug\EntityFramework.SqlServer.xml
+\\psf\Home\Documents\GitHub\CodingProblems\CodingProblems.Tests\bin\Debug\System.Data.SQLite.xml

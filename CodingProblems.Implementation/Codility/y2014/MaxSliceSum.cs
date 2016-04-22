@@ -1,6 +1,7 @@
 ﻿using CodingProblems.Implementation.Codility.y2014;
 namespace CodingProblems.Implementation.Codility.y2014.MaxSliceSum
 {
+
     using System;
     using System.Linq;
     using System.Collections.Generic;
@@ -32,20 +33,20 @@ namespace CodingProblems.Implementation.Codility.y2014.MaxSliceSum
                 int sum;
                 int length;
 
+                var maxValueNotInSlices = GetMaxValueNotInSlice(sliceResults.SlicesWithTopThreeMaxValues, slice, twoSlicesAgo);
+
                 if (twoSlicesAgo != null
                     && twoSlicesAgo.Sum >= 0
                     && slice.Sum >= 0
                     && lastSlice.MinIndex == lastSlice.MaxIndex)
                 {
-                    var maxValueNotInSlices = GetMaxValueNotInSlice(sliceResults.SlicesWithTopThreeMaxValues, slice, twoSlicesAgo);
-
                     sum = slice.Sum + twoSlicesAgo.Sum +
                         ((maxValueNotInSlices > 0) ? maxValueNotInSlices : 0);
                     length = slice.MaxIndex - twoSlicesAgo.MinIndex;
                 }
                 else
                 {
-                    sum = slice.Sum;
+                    sum = slice.Sum + ((maxValueNotInSlices > 0) ? maxValueNotInSlices : 0);
                     length = slice.MaxIndex - slice.MinIndex + 1;
                 }
 

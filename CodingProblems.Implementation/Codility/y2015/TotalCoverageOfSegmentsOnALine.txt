@@ -1,0 +1,102 @@
+﻿WITH SegmentsWithPriorRightMax AS (
+  SELECT
+    currentRow.l AS left,
+    currentRow.r AS right,
+    MAX(priorRow.r) AS priorRunningMax
+  FROM
+    segments currentRow
+    LEFT JOIN segments priorRow
+      ON (currentRow.l > priorRow.l)
+      OR (currentRow.l = priorRow.l AND currentRow.r > priorRow.r)
+  GROUP BY
+    currentRow.l,
+    currentRow.r
+), Results AS (
+  SELECT
+    --s.*,
+    CASE
+      --First row
+      WHEN (s.priorRunningMax IS NULL)
+        THEN (s.right - s.left)
+      --Row has no overlap
+      WHEN s.left >= s.priorRunningMax
+        THEN (s.right - s.left)
+      --Row exists within prior counted rows
+      WHEN s.right <= s.priorRunningMax
+        THEN 0
+      ELSE --Row overlaps with the right-most of the running total
+        (s.right - s.priorRunningMax)
+      END AS MoreSegmentsThanPrior
+  FROM
+    SegmentsWithPriorRightMax s
+)
+--SELECT * FROM SegmentsWithPriorRightMax
+SELECT IFNULL(SUM(MoreSegmentsThanPrior), 0) AS SegmentTotal
+FROM Results
+
+
+/*
+SELECT
+  IFNULL(SUM(MoreSegmentsThanPrior), 0) AS SegmentTotal
+FROM (
+
+  SELECT
+    CASE
+    --First row
+    WHEN (currentRow.rowNumber = 1)
+      THEN (currentRow.right - currentRow.left)
+    --Row has no overlap
+    WHEN currentRow.left >= priorRow.runningMax
+      THEN (currentRow.right - currentRow.left)
+    --Row exists within prior counted rows
+    WHEN currentRow.right <= priorRow.runningMax
+      THEN 0
+    ELSE --Row overlaps with the right-most of the running total
+      (currentRow.right - priorRow.runningMax)
+    END AS MoreSegmentsThanPrior,
+
+    CASE
+    --First row
+    WHEN (currentRow.rowNumber = 1)
+      THEN 'First row'
+    --Row has no overlap
+    WHEN (currentRow.left >= priorRow.runningMax)
+      THEN 'Row has no overlap'
+    --Row exists within prior counted rows
+    WHEN currentRow.right <= priorRow.runningMax
+      THEN 'Row exists within prior counted rows'
+    ELSE --Row overlaps with the right-most of the running total
+      'Row overlaps with the right-most of the running total'
+    END AS CaseDescriptor,
+	
+    currentRow.left currentL,
+    currentRow.right currentR,
+    currentRow.rowNumber currentRowNumber,
+    priorRow.left priorL,
+    priorRow.right priorR,
+    priorRow.rowNumber priorRowNumber,
+    priorRow.runningMax
+  FROM
+    (
+      SELECT s.l AS left, s.r AS right, _rowid_ AS rowNumber
+      FROM segments s
+      ORDER BY s.l, s.r
+    ) currentRow
+    LEFT JOIN (
+
+        SELECT s.l AS left, s.r AS right, s.rowNumber, MAX(runningMax.r) AS runningMax
+        FROM (
+          SELECT s.l, s.r, _rowid_ rowNumber
+          FROM segments s
+          ORDER BY s.l, s.r
+        ) s, segments runningMax
+        WHERE runningMax.l < s.l
+        OR (runningMax.l = s.l AND runningMax.r <= s.r)
+        --and (s.l != runningMax.l OR s.r != runningMax.r)
+     GROUP BY s.l, s.r
+
+    ) priorRow
+      ON currentRow.rowNumber = (priorRow.rowNumber + 1)
+
+  ) t
+*/

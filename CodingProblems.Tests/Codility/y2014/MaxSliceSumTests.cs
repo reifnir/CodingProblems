@@ -12,10 +12,32 @@ namespace CodingProblems.Tests.Codility.y2014
     class MaxSliceSumTests
     {
         [Test]
-        public void Soltuion_Example()
+        public void Solution1_Example()
         {
             var A = new[] { 3, 2, -6, 3, 1 };
             var expected = 9;
+
+            var actual = new Solution().solution(A);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        [Test]
+        public void Solution2_Example()
+        {
+            var A = new[] { -2, -2, 6, -1, -9, -3, 1, 6 };
+            var expected = 13;
+
+            var actual = new Solution().solution(A);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        [Test, Ignore] //Get back to this...
+        public void Solution3_Example()
+        {
+            var A = new[] { -6, -6, 1, 7, 6, -3, 6, 0 };
+            var expected = 20;
 
             var actual = new Solution().solution(A);
 
